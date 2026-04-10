@@ -32,6 +32,7 @@ The baseline model (without optimization) achieved 82.46% accuracy. After featur
 **Conclusion:** In medical diagnostics like cancer detection, minimizing False Negatives is the absolute highest priority. Therefore, the Information Gain configuration (achieving 100% Recall) is the most viable model for real-world clinical applications.
 
 ## Repository Structure
-* `notebook.ipynb`: The main Google Colab notebook containing the end-to-end pipeline (EDA, Pre-processing, Optuna Tuning, Evaluation).
+* `fs_chi2.ipynb`: The one of Google Colab notebook containing the end-to-end pipeline (EDA, Pre-processing, Optuna Tuning, Evaluation).
 * `README.md`: Project documentation.
+* `wdbc.data`: The WDBC dataset
 *(Note: The WDBC dataset is publicly available via the UCI Machine Learning Repository).*
